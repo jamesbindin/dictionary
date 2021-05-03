@@ -1,0 +1,107 @@
+
+/* main dictionary icon*/
+.icon_container{
+    width:2em;
+    height:2em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: .1em;
+    margin: 0;
+}
+
+.dict_toggle{
+    font-size: 2em;
+    color: #333;
+}
+
+.dict_toggle:hover{
+    cursor: pointer;
+    color: #ccc;
+}
+
+
+/* dictionary search panel */
+.dict_container{
+    display: none;
+    position: fixed;
+    width: 20em;
+    top: 4em;
+    right: 0em;
+    padding: 1em;
+    flex-direction: column;
+    background-color: #5fb8ff;
+    border-radius: 10px;
+}
+
+/* close icon */
+.dict_close{
+    justify-self: end;
+    margin-left: auto;
+    font-size: 1.3em;
+}
+
+.dict_close:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+/* dictionary title */
+.dict_header{
+    text-align: center;
+    font-weight: 400;
+    margin: 0 .3rem 1em 0 ;
+}
+
+/* container for dictionary and controls */
+.dict_form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dict_search_box{
+    padding: .4em;    
+    border-radius: 10px;
+    font-weight: 300;
+    text-align: center;
+    margin-right: .3em;
+    border: none;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+.dict_search_btn{
+    padding: .4em;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+
+.dict_search_btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.dict_search_btn:active{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* definition container and text */
+.definition_container{
+    display: none;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 1rem 0 0 0;
+    border-radius: 10px;
+}
+
+.definition_text{
+    font-weight: 300;
+    color: #333;
+    padding: 0 1rem;
+}
